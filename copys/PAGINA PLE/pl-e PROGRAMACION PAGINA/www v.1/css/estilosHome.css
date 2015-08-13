@@ -1,0 +1,71 @@
+.mainHome {
+	position: absolute;
+	z-index: 2;
+	height: 630px;
+	width: 450px;
+	left: 502px;
+	top: 27px;
+}
+
+.nubeHome {
+	position: absolute;
+	z-index: 2;
+	height: 200px;
+	width: 416px;
+	left: 10px;
+	top: 425px;
+	font-family: MyriadPro;
+	color: #FFFFFF;
+	line-height: 25px;
+	text-align: right;
+}
+
+.serviciosHome {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 129px;
+	left: 296px;
+	top: 210px;
+}
+.weddingHome {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 223px;
+	left: 201px;
+	top: 245px;
+}
+.galeriaHome {
+	position: absolute;
+	z-index: 2;
+	height: 33px;
+	width: 100px;
+	left: 326px;
+	top: 276px;
+}
+.nosotrosHome {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 130px;
+	left: 294px;
+	top: 317px;
+}
+.contactoHome {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 127px;
+	left: 296px;
+	top: 353px;
+}
+
+.logotipoHome {
+	position: absolute;
+	z-index: 2;
+	height: 155px;
+	width: 281px;
+	left: 162px;
+	top: 8px;
+}

@@ -1,0 +1,128 @@
+.formulario {
+	background-image: url(../IMGs/formulario.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: absolute;
+	z-index: 4;
+	height: 433px;
+	width: 917px;
+	left: 7px;
+	top: 48px;
+}
+.nombre {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 770px;
+	left: 146px;
+	top: 5px;
+}
+.correo {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 361px;
+	left: 162px;
+	top: 50px;
+}
+.telefono {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 361px;
+	left: 552px;
+	top: 51px;
+}
+.tipo {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 425px;
+	left: 104px;
+	top: 93px;
+}
+.lugar {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 323px;
+	left: 591px;
+	top: 94px;
+}
+.fecha {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 169px;
+	left: 74px;
+	top: 138px;
+}
+.desde {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 151px;
+	left: 272px;
+	top: 138px;
+}
+.al {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 153px;
+	left: 444px;
+	top: 138px;
+}
+
+
+.personas {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 254px;
+	left: 658px;
+	top: 138px;
+}
+.descripcion {
+	position: absolute;
+	z-index: 4;
+	height: 35px;
+	width: 219px;
+	left: 17px;
+	top: 179px;
+	text-align: right;
+}
+.descripcionCAMPO {
+	position: absolute;
+	z-index: 4;
+	height: 154px;
+	width: 660px;
+	left: 256px;
+	top: 183px;
+}
+
+.boton {
+	position: absolute;
+	z-index: 4;
+	height: 46px;
+	width: 100px;
+	left: 234px;
+	top: 370px;
+}
+.enviar {
+	z-index: 4;
+	height: 38px;
+	width: 100px;
+	background-image: url(../IMGs/boton-enviar.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.enviar:hover {
+	z-index: 4;
+	cursor: pointer;
+	height: 38px;
+	width: 100px;
+	background-image: url(../IMGs/boton-enviar-R.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}

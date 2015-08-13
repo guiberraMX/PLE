@@ -1,0 +1,98 @@
+/***********************************************************************************************************************
+DOCUMENT: style/format.css
+DEVELOPED BY: Ryan Stemkoski
+COMPANY: Zipline Interactive
+EMAIL: ryan@gozipline.com
+PHONE: 509-321-2849
+DATE: 2/26/2009
+DESCRIPTION: This document contains the structural formatting files for the accordion style menu.
+************************************************************************************************************************/
+#wrapper {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:"MyriadPro";
+	color:#0f0c20;
+}
+.accordionButton {	
+	width: 1024px;
+	height: 85px;
+	cursor: pointer;
+}	
+.textoAudio {
+	width: 400px;
+	padding-top: 30px;
+	padding-left: 50px;
+
+}
+
+
+
+.textoVideo {
+	width: 400px;
+	padding-top: 30px;
+	padding-left: 580px;
+}
+.textoIluminacion {
+	width: 430px;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.textoMobiliario {
+	width: 420px;
+	padding-top: 30px;
+	padding-left: 580px;
+}
+.textoCatering {
+	width: 430px;
+	padding-top: 35px;
+	padding-left: 50px;
+}
+
+
+.accordionContentAudio {
+	width: 1024px;
+	background-image: url(../IMGs/fondo-audio.jpg);
+	background-repeat: no-repeat;
+	height: 317px;
+}
+.accordionContentVideo {
+	width: 1024px;
+	background-image: url(../IMGs/fondo-video.jpg);
+	background-repeat: no-repeat;
+	height: 357px;
+	font-family:"MyriadPro";
+	color:#0f0c20;	
+}
+.accordionContentIluminacion {
+	width: 1024px;
+	background-image: url(../IMGs/fondo-iluminacion.jpg);
+	background-repeat: no-repeat;
+	height: 518px;
+	font-family:"MyriadPro";
+	color:#0f0c20;	
+}
+.accordionContentMobiliario {
+	width: 1024px;
+	background-image: url(../IMGs/fondo-mobiliario.jpg);
+	background-repeat: no-repeat;
+	height: 299px;
+	font-family:"MyriadPro";
+	color:#0f0c20;	
+}
+.accordionContentCatering {
+	width: 1024px;
+	background-image: url(../IMGs/fondo-catering.jpg);
+	background-repeat: no-repeat;
+	height: 390px;
+	font-family:"MyriadPro";
+	color:#0f0c20;	
+}
+/************/
+.acordion {
+	position: absolute;
+	height: auto;
+	width: 1024px;
+	left: 0px;
+	top: 369px;
+}

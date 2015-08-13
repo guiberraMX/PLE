@@ -1,0 +1,434 @@
+.contenedorSERV {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+	top: 0px;
+	height: 900px;
+	position: relative;
+}
+.contenedorWED {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+	top: 0px;
+	height: 2325px;
+	position: relative;
+	background-color: #FFFFFF;
+	background-image: url(../IMGs/foto-wedding.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.contenedorGAL {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+	top: 0px;
+	height: 1500px;
+	position: relative;
+	background-image: url(../IMGs/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.contenedorNOS {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+	top: 0px;
+	height: 1050px;
+	position: relative;
+	background-image: url(../IMGs/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.contenedorCON {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+	top: 0px;
+	height: 1150px;
+	position: relative;
+	background-image: url(../IMGs/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.barraDatosSERV {
+	background-image: url(../IMGs/datos-servicios.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 2;
+	width: 1024px;
+	bottom: -110px;
+	height: 80px;
+}
+.barraDatosWED {
+	background-image: url(../IMGs/datos-wedding.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 2;
+	width: 1024px;
+	bottom: 20px;
+	height: 59px;
+}
+.barraDatosGAL {
+	background-image: url(../IMGs/datos-galeria.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 2;
+	width: 1024px;
+	bottom: 20px;
+	height: 59px;
+}
+.barraDatosNOS {
+	background-image: url(../IMGs/datos-nosotros.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 2;
+	width: 1024px;
+	bottom: 20px;
+	height: 59px;
+}
+.barraDatosCON {
+	background-image: url(../IMGs/datos-contacto.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	z-index: 2;
+	width: 1024px;
+	bottom: 20px;
+	height: 59px;
+	left: 0px;
+}
+
+.fotosWed {
+	position: absolute;
+	height: 746px;
+	width: 883px;
+	left: 78px;
+	top: 1447px;
+}
+
+
+.ple {
+	position: absolute;
+	z-index: 3;
+	height: 24px;
+	width: 588px;
+	left: 151px;
+	top: 23px;
+	font-family: "MyriadPro";
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	line-height: 15px;
+}
+.datos {
+	position: absolute;
+	z-index: 3;
+	height: 55px;
+	width: 165px;
+	top: 7px;
+	right: 46px;
+	text-align: right;
+	font-family: "MyriadPro";
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+a.mail:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.mail:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a.mail:hover {
+	font-family: "MyriadPro-Bold";
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.fotosSERV {
+	position: absolute;
+	z-index: 2;
+	height: 125px;
+	width: 1024px;
+	left: 0px;
+	top: 244px;
+}
+
+.main {
+	position: absolute;
+	z-index: 2;
+	height: 199px;
+	width: 940px;
+	left: 38px;
+	top: 29px;
+}
+.inicio {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 77px;
+	left: 146px;
+	top: 0px;
+}
+.nube {
+	position: absolute;
+	z-index: 2;
+	height: 165px;
+	width: 380px;
+	left: 269px;
+	top: 5px;
+	font-family: "MyriadPro";
+	color: #6e8814;
+	line-height: 25px;
+}
+.nubeAzul {
+	position: absolute;
+	z-index: 2;
+	height: 165px;
+	width: 380px;
+	left: 269px;
+	top: 5px;
+	font-family: "MyriadPro";
+	color: #444fe2;
+	line-height: 25px;
+}
+.nubeHome {
+	position: absolute;
+	z-index: 2;
+	height: 165px;
+	width: 380px;
+	left: 269px;
+	top: 5px;
+	font-family: "MyriadPro";
+	color: #6e8814;
+	line-height: 25px;
+}
+
+
+.servicios {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 129px;
+	left: 94px;
+	top: 29px;
+}
+.wedding {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 223px;
+	left: 0px;
+	top: 58px;
+}
+.galeria {
+	position: absolute;
+	z-index: 2;
+	height: 33px;
+	width: 100px;
+	left: 123px;
+	top: 85px;
+}
+.nosotros {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 130px;
+	left: 93px;
+	top: 119px;
+}
+.contacto {
+	position: absolute;
+	z-index: 2;
+	height: 28px;
+	width: 127px;
+	left: 96px;
+	top: 149px;
+}
+.indicador {
+	position: absolute;
+	z-index: 2;
+	height: 134px;
+	width: 15px;
+	left: 227px;
+	top: 37px;
+}
+.logotipo {
+	position: absolute;
+	z-index: 2;
+	height: 146px;
+	width: 264px;
+	left: 662px;
+	top: 16px;
+}
+.textoWED {
+	position: absolute;
+	z-index: 3;
+	height: 198px;
+	top: 1019px;
+	background-image: url(../IMGs/menu-wedding.png);
+	background-repeat: no-repeat;
+	font-family: "CAC-Champagne";
+	font-size: 30px;
+	color: #FFFFFF;
+	width: 1024px;
+}
+.serviciosWED {
+	position: absolute;
+	z-index: 3;
+	height: 229px;
+	top: 1228px;
+	font-family: "MyriadPro";
+	font-size: 14px;
+	width: 874px;
+	left: 129px;
+	color: #890061;
+}
+.postit {
+	z-index: 4;
+	height: 228px;
+	width: 218px;
+	left: 725px;
+	top: 732px;
+	position: absolute;
+	cursor: pointer;
+}
+.siguiente {
+	position: absolute;
+	z-index: 2;
+	height: 40px;
+	width: 54px;
+	left: 543px;
+	top: 1332px;
+}
+.esferas {
+	background-image: url(../IMGs/barra-nosotros.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	height: 263px;
+	width: 1024px;
+	left: 0px;
+	top: 240px;
+	z-index: 2;
+}
+.barraCON {
+	background-image: url(../IMGs/barra-contacto.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 90px;
+	width: 1024px;
+	left: 0px;
+	top: 240px;
+	z-index: 2;
+}
+.barraGAL {
+	background-image: url(../IMGs/barra-galeria.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 90px;
+	width: 1024px;
+	left: 0px;
+	top: 240px;
+	z-index: 2;
+}
+
+
+
+.anterior {
+	position: absolute;
+	z-index: 2;
+	height: 40px;
+	width: 54px;
+	left: 466px;
+	top: 1315px;
+}
+.somos {
+	font-family: "MyriadPro";
+	font-size: 20px;
+	color: #404040;
+	position: absolute;
+	z-index: 3;
+	height: 115px;
+	width: 700px;
+	left: 0px;
+	top: 450px;
+	background-image: url(../IMGs/gris.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 155px;
+	line-height: 23px;
+}
+.subCON {
+	font-family: MyriadPro;
+	font-size: 20px;
+	color: #595959;
+	position: absolute;
+	z-index: 3;
+	height: 850px;
+	width: 1024px;
+	left: 0px;
+	top: 329px;
+	background-image: url(../IMGs/bk-contacto.jpg);
+	background-repeat: no-repeat;
+}
+
+.ideologia {
+	font-family: "MyriadPro";
+	font-size: 18px;
+	color: #404040;
+	position: absolute;
+	height: 273px;
+	width: 1024px;
+	left: 0px;
+	top: 641px;
+	background-image: url(../IMGs/barra-nosotros-blanco.png);
+	background-repeat: no-repeat;
+}
+.info {
+	color: #414141;
+	position: absolute;
+	height: 84px;
+	width: 354px;
+	left: 377px;
+	top: 563px;
+	text-align: center;
+	font-family: "MyriadPro-Bold";
+	z-index: 4;
+}
+
+.valores {
+	position: absolute;
+	z-index: 3;
+	height: 200px;
+	width: 242px;
+	left: 105px;
+	top: 32px;
+}
+.mision {
+	position: absolute;
+	z-index: 3;
+	height: 200px;
+	width: 250px;
+	left: 388px;
+	top: 32px;
+	text-align:justify;
+}
+.vision {
+	position: absolute;
+	z-index: 3;
+	height: 200px;
+	width: 250px;
+	left: 717px;
+	top: 32px;
+	text-align:justify;
+}

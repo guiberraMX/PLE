@@ -1,0 +1,430 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Producción &amp; Logística de Eventos | PLE</title>
+
+<link rel="shortcut icon" href="http://www.pl-e.mx/favicon.ico" />
+<link rel="icon" href="http://www.pl-e.mx/favicon.ico" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: #999999;
+	margin-bottom: 0px;
+}
+@font-face
+{
+	font-family: "MyriadPro";
+	src: url('fonts/MyriadPro-Regular.woff'),
+    	 url('fonts/MyriadPro-Regular.eot'),
+         url('fonts/MyriadPro-Regular.ttf'),
+         url('fonts/MyriadPro-Regular.svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: "MyriadPro-Bold";
+	src: url('fonts/MyriadPro-Bold.woff'),
+    	 url('fonts/MyriadPro-Bold.eot'),
+         url('fonts/MyriadPro-Bold.ttf'),
+         url('fonts/MyriadPro-Bold.svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face
+{
+	font-family: "CAC-Champagne";
+	src: url('fonts/CAC-Champagne.woff'),
+    	 url('fonts/CAC-Champagne.eot'),
+         url('fonts/CAC-Champagne.ttf'),
+         url('fonts/CAC-Champagne.svg');
+	font-weight: normal;
+	font-style: normal;
+}
+a:link {
+	text-decoration: none;
+	color: #890061;
+}
+a:visited {
+	text-decoration: none;
+	color: #890061;
+}
+a:hover {
+	font-size: 15px;
+	text-decoration: none;
+	color: #890061;
+}
+a:active {
+	text-decoration: none;
+	color: #FF0000;
+}
+a.trans img 
+{
+opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+a.trans:hover img
+{
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+</style>
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<script type="text/javascript">
+			$(".fancybox").fancybox({
+				openEffect : 'elastic',
+				openSpeed  : 500,
+				closeEffect : 'elastic',
+				closeSpeed  : 300,
+				closeClick : true,
+				
+				helpers: {
+					title : {
+						type : 'over'
+					},
+				}
+			});		
+</script>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43593408-1', 'pl-e.mx');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body onLoad="MM_preloadImages('IMGs/boton-inicio-R.png','IMGs/boton-servicios-R2.png','IMGs/boton-wedding-R2.png','IMGs/boton-galeria-R2.png','IMGs/boton-nosotros-R2.png','IMGs/boton-contacto-R2.png')">
+<div class="contenedorWED">
+
+<div class="main" id="main">
+<div class="inicio" id="botINI">
+<a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('inicio','','IMGs/boton-inicio-R.png',1)"><img src="IMGs/boton-inicio.png" name="inicio" width="77" height="28" border="0"></a>
+</div>
+<div class="servicios" id="botSER">
+<a href="servicios.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('servicios','','IMGs/boton-servicios-R2.png',1)"><img src="IMGs/boton-servicios.png" name="servicios" width="129" height="28" border="0"></a>
+</div>
+<div class="wedding" id="botWED">
+<img src="IMGs/boton-wedding-R.png" name="wedding" width="223" height="28" border="0" id="wedding">
+</div>
+<div class="galeria" id="botGAL">
+<a href="galeria.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('galeria','','IMGs/boton-galeria-R2.png',1)"><img src="IMGs/boton-galeria.png" name="galeria" width="100" height="33" border="0"></a></div>
+<div class="nosotros" id="botNOS">
+<a href="nosotros.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nosotros','','IMGs/boton-nosotros-R2.png',1)"><img src="IMGs/boton-nosotros.png" name="nosotros" width="130" height="28" border="0"></a>
+</div>
+<div class="contacto" id="botCONT">
+<a href="contacto.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contacto','','IMGs/boton-contacto-R2.png',1)"><img src="IMGs/boton-contacto.png" name="contacto" width="127" height="28" border="0"></a>
+</div>
+<div class="indicador" id="indica">
+<img src="IMGs/indicador-wedding.png" name="indicaS" width="15" height="134" id="indicaS">
+</div>
+<div class="nubeAzul" id="nube">
+<span style="font-size:25px">Lanzamientos de producto</span><br>
+<span style="font-size:15px; padding-right:9px">Presentaciones corporativas</span>
+<span style="font-size:23px; padding-right:13px">Congresos<br>
+Convenciones</span>
+<span style="font-size:17px; padding-right:9px">Video conferencias</span>
+<span style="padding-right:10px">Ferias y<br>
+Expos</span>
+<span style="font-size:35px; padding-right:10px">Conciertos</span>
+<span style="font-size:23px">Pasarelas<br></span>
+<span style="font-size:17px; padding-right:8px">Graduaciones</span>
+<span style="font-size:35px; padding-right:10px">Bodas</span>
+<span style="font-size:17px">Recepciones<br></span>
+<span style="font-size:23px; padding-right:10px">Cocteles</span>
+<span style="font-size:17px">Fiestas de cumpleaños</span>
+</div>
+<div class="logotipo" id="logo"> <a href="index.html"><img src="IMGs/logotipo-PLE-blanco.png" name="logotipo1" width="264" height="146" border="0" id="logotipo1"></a>
+</div>
+</div>
+
+<div class="postit" id="postit">
+  <img src="IMGs/postit.png" name="postit" width="218" height="225" border="0" id="postit" onClick="MM_openBrWindow('la-boda-perfecta.html','WeddingPlanner','scrollbars=yes,width=695,height=499')">
+  </div>
+
+<div class="textoWED" id="textoWED">
+<table border="0">
+  <tr>
+    <td width="138" height="32"></td>
+    <td width="848"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><img src="IMGs/texto-wedding.png" name="textoWED" width="792" height="86" border="0" id="textoWED"></td>
+  </tr>
+</table>
+</div>
+
+<div class="serviciosWED" id="serviciosWED">
+<table width="828" height="219" border="0">
+  <tr style="vertical-align: top">
+    <td width="223" height="215">
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-1-planeacion.jpg" data-fancybox-title="PLANEACIÓN.
+A partir de este momento comienza un gran viaje lleno de emociones, creatividad, originalidad y decisiones. Compartir cada paso con ustedes nos llena de satisfacción. Planear tu boda es la base de todo y es el comienzo de una linda historia. * Entra a nuestra sección 'PLANEANDO LA BODA PERFECTA' para leer todo lo que necesitas saber para hacer de tu boda un evento inolvidable.">* Planeación</a><br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-2-civil.jpg" data-fancybox-title="CEREMONIA CIVIL.
+Para que tu matrimonio sea legal, es importante hacer todo el papeleo para realizar la ceremonia civil. Esta puede llevarse a cabo en petit comité en el mismo Registro Civil, o el mismo día en el lugar del evento. 
+Debes buscar el Módulo que les corresponda dependiendo del lugar donde se casarán. El trámite es sencillo y sólo hay que pagar una cuota.">* Ceremonia Civil<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-3-religiosa.jpg" data-fancybox-title="CEREMONIA RELIGIOSA.
+Para muchos novios la ceremonia religiosa es de los acontecimientos más significativos e importantes, en ella sólo se casan una vez en la vida. Por eso la iglesia y el sacerdote adecuados es lo que marca la diferencia.
+Los requisitos son muy específicos y deben de cumplirlos al pie de la letra, así que les recomendamos que sea lo primero que elijan y con suficiente anticipación para evitar imprevistos.">* Ceremonia Religiosa<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-4-recepcion.jpg" data-fancybox-title="RECEPCIÓN.
+Decidir el lugar donde te casarás es muy importante y debe de estar ligado con la ceremonia religiosa, ya que es conveniente que sean cercanas una de otra para que ustedes y sus invitados se desplacen a unos minutos solamente, así evitarán contratiempos y tráfico vehicular.
+Tu elección puede ser desde jardín, salón, o si buscas algo caluroso la playa es una linda opción. Recuerda, la temporada es otro de los factores que debes tomar en cuenta para tu decisión.
+Si sigues estos consejos verás que todo saldrá de maravilla.
+En PLE te ayudamos a encontrar ese lugar especial, así como elegir el montaje y decoración adecuados a lo que buscas.">* Recepción<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-5-menu.jpg" data-fancybox-title="MENÚ.
+Sin lugar a duda esta es una parte que definitivamente abre el apetito. Satisfacer tu paladar y el de tus invitados es una elección en donde debes ser selectivo y meticuloso. Dependiendo del tipo de boda que decidas, ya sea por tiempos, canapés o tipo bufete, encontrarás una variedad de platillos para elegir la mejor opción.">* Menú<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-6-cocteleria.jpg" data-fancybox-title="COCTELERÍA Y BARRA LIBRE.
+Recibir a tus invitados con un coctel de bienvenida es un detalle que relaja el ambiente. 
+Otra opción de bebidas, es la barra libre que puede ser estilo nacional o internacional, dependiendo el presupuesto y el gusto de cada pareja. 
+Otra alternativa es limitar la bebida de acuerdo a tu presupuesto y la cantidad de invitados. 
+Cual sea su gusto, les ayudamos a presupuestar lo más conveniente para su fiesta y que ustedes y sus invitados queden satisfechos.">* Coctelería y barra libre<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-7-vinos.jpg" data-fancybox-title="ELECCIÓN DE VINOS.
+El buen vino es al gusto de cada paladar. Hay una infinita variedad de vinos para elegir, así que sólo preocúpate por disfrutar.
+Si te gusta el champagne, ésta puedes ofrecerla solamente al momento del brindis. Un tip, si tu presupuesto es limitado, puedes sustituirlo por un buen vino espumoso.">* Elección de vinos<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-8-flores.jpg" data-fancybox-title="ARREGLOS Y FLORES.
+La decoración principal de toda boda son las flores, dan un toque único y especial al evento. Existe una gama muy variada de flores que puedes utilizarlas desde la ceremonia religiosa, en la recepción, en el ramo de las damas y el de la novia, por supuesto dándole un toque especial a ésta.
+Es importante que haya armonía en todos los arreglos de cada espacio, y se recomienda utilizar como máximo tres flores para combinar.">* Arreglos y flores<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-9-musica.jpg" data-fancybox-title="MÚSICA Y ANIMACIÓN.
+La música es un elemento que acompaña y armoniza la ceremonia en su totalidad. 
+En la ceremonia religiosa un conjunto de violines o piano va ad hoc a la celebración. Y en la recepción ya sea música en vivo o un DJ, ameniza completamente el banquete y la fiesta en general.
+Recuerda siempre elegir un buen grupo y/o DJ. Es importante que les des la pauta de lo que te gusta y no te gusta, de preferencia elabora una lista de canciones, esto da una seguridad de que todo lo que quieras bailar y escuchar va a tener play en tu boda, y lo que no… jamás lo escucharás.
+Al momento de la fiesta puedes incluir batucada, o pedir una pista iluminada que parezca que estás en la disco.
+Y para cerrar con broche de oro, un mariachi o un grupo de banda harán que su fiesta sea muy divertida.">* Música y animación<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-10-invitaciones.jpg" data-fancybox-title="INVITACIONES.
+El objetivo de las invitaciones es dar a conocer el compromiso, la información del evento y la referencia del tipo de boda. De acuerdo al estilo de boda es el tipo de la invitación. Tu estilo es el que da la pauta para cada detalle.">* Invitaciones<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-11-regalos.jpg" data-fancybox-title="MESA DE REGALOS.
+Normalmente las tiendas departamentales ofrecen este servicio a los novios y facilitan, tanto a los novios como a los invitados la elección de sus regalos.
+Es importante seleccionar bien el tipo de tienda y sus políticas para encontrar al que tenga mejor servicio y opciones de entrega.">* Mesa de regalos<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-12-fotovideo.jpg" data-fancybox-title="FOTOGRAFÍA Y VIDEO.
+Un tesoro para conservar. El tener uno de los días más importantes de sus vidas plasmados en papel y en video es algo inigualable y que al paso de los años seguirán siendo un recuerdo muy especial.
+Captar cada momento de ese día lo debe de hacer un experto en la materia, así que un excelente fotógrafo hace la diferencia. Es importante que sea organizado, cumplido y profesional. Te recomendamos que sea alguien con buenas referencias y que te muestre su trabajo.">* Fotografía y video </td>
+    <td width="237">
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-13-vestido.jpg" data-fancybox-title="VESTIDO DE NOVIA.
+El cómo te verás en tu boda es uno de los detalles más importantes, debes lucir bella y ser el centro de atención de ese momento tan especial. ¡Es tu día, así que no hay límites! Sólo concéntrate en encontrar un vestido espectacular y que luzca bien de acuerdo a tu personalidad y estilo.">* Vestido de novia<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-14-damas.jpg" data-fancybox-title="VESTIDO DE DAMAS.
+Hoy  en día existen diferentes formas de que luzcan tus damas. Elegir el color es lo más sencillo, pero debes de tratar que el modelo sea fácil de lucir en todo tipo de siluetas. Busca que estén contentas con tu decisión, así ellas también se sentirán bellas y estarán felices de ser tus damas. 
+Hay que ser congruentes con el estilo de fiesta, si es de día, en lugar abierto y caluroso elige vestidos ligeros y cortos. Si es un evento de noche y de gala, el largo queda perfecto. Recuerda, tus damas deben de sentirse a gusto al igual que tú.">* Vestido de damas<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-18-anillos.jpg" data-fancybox-title="ANILLOS.
+Para el anillo de compromiso normalmente la elección es del novio, es una sorpresa para ella. Busca un anillo que represente su amor.
+Importante, debes saber la medida del dedo de tu novia para evitar errores y tener que regresarlo después de haberlo dado.
+Para los anillos de matrimonio la elección es un gusto de ambos. Hay infinita variedad de modelos, dense un tiempo para elegir los correctos. Recuerda que es una joya que representa la unión en pareja.">* Anillos <br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-15-accesorios.jpg" data-fancybox-title="ACCESORIOS.
+Un complemento básico es incluir a tu vestido accesorios adecuados. Normalmente se utilizan adornos discretos y de buen gusto, sin caer en lo exagerado y cargado. 
+Los zapatos son otro elemento que resaltan el vestido de novia, te recomendamos buscar zapatos cómodos. Avanzada la fiesta puedes sustituirlos por tenis de novia.">* Accesorios<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-16-peinado.jpg" data-fancybox-title="PEINADOS Y MAQUILLAJE.
+El peinado y maquillaje son parte de tu presentación, es importante buscar a un especialista en la materia que entienda lo que te gusta y sepa armonizar tu cabello y rostro para verte espectacular. Recuerda, antes del gran evento debes hacerte una prueba  para que sepas cómo lucirás y poder hacer modificaciones si es necesario. ">* Peinados y maquillaje<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-19-novio.jpg" data-fancybox-title="PARA EL NOVIO.
+No podemos ni queremos dejar atrás al novio. Es un momento igual de importante para él.
+Tu imagen es primordial, ¿Cómo quiero verme en mi boda? Tenemos que buscar lo apuesto que te verás ese día. Una vestimenta adecuada es lo principal, y llevar un adorno en la solapa que combine con la novia, es un detalle muy especial.  
+Las mancuernillas son otro detalle sofisticado, elige algo discreto pero que te haga lucir elegante. Eres el novio, debes lucir un atuendo varonil que te hará ver con armonía y coordinado.">* Para el novio<br><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-17-spa.jpg" data-fancybox-title="SPA.
+Te recomendamos buscar un momento para que te relajes, puede ser una semana antes de su boda, o unos días antes. El objetivo es que te relajes y dediques un tiempo para tu tranquilidad y buscar espiritualidad. Esto ayuda mucho para los novios que están en constante estrés. Créanos, es una maravilla.">* Spa<br></td>
+    <td width="174">
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-20-limo.jpg" data-fancybox-title="LIMUSINAS.
+Ir en la comodidad de una limusina es toda una experiencia; espacio suficiente, elegancia, confort y servicio. ¡Se merecen esto y más!">* Limusinas<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-21-fuegos.jpg" data-fancybox-title="FUEGOS ARTIFICIALES.
+Para bodas en lugares abiertos los fuegos artificiales son una fiesta y un espectáculo increíbles, es la alegría de festejar este acontecimiento. Un plus que dará un toque especial a su boda.
+Ustedes y sus invitados lo disfrutarán. ">* Fuegos artificiales<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-22-cantoya.jpg" data-fancybox-title="GLOBOS DE CANTOYA.
+Otro espectáculo excepcional son los globos de cantoya. Se encienden globos al aire libre y todos los invitados los lanzan para tapizar el cielo de luz y brillo. Es una belleza disfrutar ese instante.
+Consejo. Si hay niños como invitados deben de estar vigilados por un adulto.">* Globos de Cantoya<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-23-flotantes.jpg" data-fancybox-title="PANTALLAS FLOTANTES.
+Un adorno con gran elegancia son las pantallas flotantes con iluminación en su interior. Se colocan sobre el agua y dan un ambiente muy acogedor y diferente. 
+Consejo. Si buscas incluir esta decoración, el evento debe ser por la noche para que luzcan radiantes.">* Pantallas flotantes<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-24-dulces.jpg" data-fancybox-title="BARRA DE DULCES.
+Es muy común hoy en día montar una barra de dulces variados, es un detalle más que puedes incluir en tu boda y tus invitados quedarán encantados.">* Barra de dulces<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-25-reposteria.jpg" data-fancybox-title="REPOSTERÍA. 
+Aún no está de lado el pastel de bodas, sin embargo algo que puede hacer la diferencia es incluir unos deliciosos cupcakes. El pastel de los novios pueden hacerlo de tamaño pequeño para ustedes dos y los cupcakes para los invitados, quedarán fascinados.
+Consejo. Así como el menú principal, debes hacer una prueba de postres para probar la calidad y sabor.">* Repostería<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-26-souvenirs.jpg" data-fancybox-title="SOUVENIRS.
+Un detalle de agradecimiento a tus invitados es darles un regalo original que se puedan quedar de recuerdo y que lo conserven por mucho tiempo. Por ejemplo las pantuflas, son un hit para las mujeres que después de tanto tiempo de usar tacones necesitan seguir la fiesta, tus invitadas te lo agradecerán y el baile continuará. Te sugerimos elegir algo creativo y original.">* Souvenirs</td>
+    <td width="176">
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-27-despedida.jpg" data-fancybox-title="DESPEDIDA DE SOLTERA (O).
+Disfrutar este momento con tus amigas (os) y familia es cuando te das cuenta que serán las últimas veces que salgas como soltera (o). Busca un lugar donde te guste compartir con las personas que más quieres tu felicidad. Créanos es una gran experiencia.">* Despedida de soltera (o)<br>
+<a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-28-luna.jpg" data-fancybox-title="LUNA DE MIEL.
+¡Al fin solos! Después de tanto organizar, después de tanto estrés, y después de una boda de 10, llega el momento de relajarse y disfrutar en pareja. ¡Felicidades a los nuevos esposos!">* Luna de miel </td>
+  </tr>
+</table>
+</div>
+
+<div class="fotosWed" id="fotos">
+  <table width="676" height="409" border="0">
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-1-planeacion.jpg" data-fancybox-title="PLANEACIÓN.
+A partir de este momento comienza un gran viaje lleno de emociones, creatividad, originalidad y decisiones. Compartir cada paso con ustedes nos llena de satisfacción. Planear tu boda es la base de todo y es el comienzo de una linda historia. * Entra a nuestra sección 'PLANEANDO LA BODA PERFECTA' para leer todo lo que necesitas saber para hacer de tu boda un evento inolvidable."><img src="IMGs/wed-1-planeacion-CH.jpg" name="wed01" width="141" height="140" border="0" id="wed01"></a></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-2-civil.jpg" data-fancybox-title="CEREMONIA CIVIL.
+Para que tu matrimonio sea legal, es importante hacer todo el papeleo para realizar la ceremonia civil. Esta puede llevarse a cabo en petit comité en el mismo Registro Civil, o el mismo día en el lugar del evento. 
+Debes buscar el Módulo que les corresponda dependiendo del lugar donde se casarán. El trámite es sencillo y sólo hay que pagar una cuota.
+"><img src="IMGs/wed-2-civil-CH.jpg" name="wed02" width="141" height="140" border="0" id="wed02"></a></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-3-religiosa.jpg" data-fancybox-title="CEREMONIA RELIGIOSA.
+Para muchos novios la ceremonia religiosa es de los acontecimientos más significativos e importantes, en ella sólo se casan una vez en la vida. Por eso la iglesia y el sacerdote adecuados es lo que marca la diferencia.
+Los requisitos son muy específicos y deben de cumplirlos al pie de la letra, así que les recomendamos que sea lo primero que elijan y con suficiente anticipación para evitar imprevistos.
+"><img src="IMGs/wed-3-religiosa-CH.jpg" name="wed03" width="141" height="141" border="0" id="wed03"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-4-recepcion.jpg" data-fancybox-title="RECEPCIÓN.
+Decidir el lugar donde te casarás es muy importante y debe de estar ligado con la ceremonia religiosa, ya que es conveniente que sean cercanas una de otra para que ustedes y sus invitados se desplacen a unos minutos solamente, así evitarán contratiempos y tráfico vehicular.
+Tu elección puede ser desde jardín, salón, o si buscas algo caluroso la playa es una linda opción. Recuerda, la temporada es otro de los factores que debes tomar en cuenta para tu decisión.
+Si sigues estos consejos verás que todo saldrá de maravilla.
+En PLE te ayudamos a encontrar ese lugar especial, así como elegir el montaje y decoración adecuados a lo que buscas.
+"><img src="IMGs/wed-4-recepcion-CH.jpg" name="wed04" width="141" height="141" border="0" id="wed04"></td>
+    </tr>
+    <tr>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-5-menu.jpg" data-fancybox-title="MENÚ.
+Sin lugar a duda esta es una parte que definitivamente abre el apetito. Satisfacer tu paladar y el de tus invitados es una elección en donde debes ser selectivo y meticuloso. Dependiendo del tipo de boda que decidas, ya sea por tiempos, canapés o tipo bufete, encontrarás una variedad de platillos para elegir la mejor opción.
+"><img src="IMGs/wed-5-menu-CH.jpg" name="wed05" width="141" height="141" border="0" id="wed05"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-6-cocteleria.jpg" data-fancybox-title="COCTELERÍA Y BARRA LIBRE.
+Recibir a tus invitados con un coctel de bienvenida es un detalle que relaja el ambiente. 
+Otra opción de bebidas, es la barra libre que puede ser estilo nacional o internacional, dependiendo el presupuesto y el gusto de cada pareja. 
+Otra alternativa es limitar la bebida de acuerdo a tu presupuesto y la cantidad de invitados. 
+Cual sea su gusto, les ayudamos a presupuestar lo más conveniente para su fiesta y que ustedes y sus invitados queden satisfechos.
+"><img src="IMGs/wed-6-cocteleria-CH.jpg" name="wed06" width="141" height="141" border="0" id="wed06"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-7-vinos.jpg" data-fancybox-title="ELECCIÓN DE VINOS.
+El buen vino es al gusto de cada paladar. Hay una infinita variedad de vinos para elegir, así que sólo preocúpate por disfrutar.
+Si te gusta el champagne, ésta puedes ofrecerla solamente al momento del brindis. Un tip, si tu presupuesto es limitado, puedes sustituirlo por un buen vino espumoso.
+"><img src="IMGs/wed-7-vinos-CH.jpg" name="wed07" width="141" height="140" border="0" id="wed07"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-8-flores.jpg" data-fancybox-title="ARREGLOS Y FLORES.
+La decoración principal de toda boda son las flores, dan un toque único y especial al evento. Existe una gama muy variada de flores que puedes utilizarlas desde la ceremonia religiosa, en la recepción, en el ramo de las damas y el de la novia, por supuesto dándole un toque especial a ésta.
+Es importante que haya armonía en todos los arreglos de cada espacio, y se recomienda utilizar como máximo tres flores para combinar. 
+"><img src="IMGs/wed-8-flores-CH.jpg" name="wed08" width="141" height="141" border="0" id="wed08"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-9-musica.jpg" data-fancybox-title="MÚSICA Y ANIMACIÓN.
+La música es un elemento que acompaña y armoniza la ceremonia en su totalidad. 
+En la ceremonia religiosa un conjunto de violines o piano va ad hoc a la celebración. Y en la recepción ya sea música en vivo o un DJ, ameniza completamente el banquete y la fiesta en general.
+Recuerda siempre elegir un buen grupo y/o DJ. Es importante que les des la pauta de lo que te gusta y no te gusta, de preferencia elabora una lista de canciones, esto da una seguridad de que todo lo que quieras bailar y escuchar va a tener play en tu boda, y lo que no… jamás lo escucharás.
+Al momento de la fiesta puedes incluir batucada, o pedir una pista iluminada que parezca que estás en la disco.
+Y para cerrar con broche de oro, un mariachi o un grupo de banda harán que su fiesta sea muy divertida.
+"><img src="IMGs/wed-9-musica-CH.jpg" name="wed09" width="141" height="140" border="0" id="wed09"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-10-invitaciones.jpg" data-fancybox-title="INVITACIONES.
+El objetivo de las invitaciones es dar a conocer el compromiso, la información del evento y la referencia del tipo de boda. De acuerdo al estilo de boda es el tipo de la invitación. Tu estilo es el que da la pauta para cada detalle.
+"><img src="IMGs/wed-10-invitaciones-CH.jpg" name="wed10" width="141" height="141" border="0" id="wed10"></td>
+    </tr>
+    <tr>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-11-regalos.jpg" data-fancybox-title="MESA DE REGALOS.
+Normalmente las tiendas departamentales ofrecen este servicio a los novios y facilitan, tanto a los novios como a los invitados la elección de sus regalos.
+Es importante seleccionar bien el tipo de tienda y sus políticas para encontrar al que tenga mejor servicio y opciones de entrega.
+"><img src="IMGs/wed-11-regalos-CH.jpg" name="wed11" width="141" height="140" border="0" id="wed11"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-12-fotovideo.jpg" data-fancybox-title="FOTOGRAFÍA Y VIDEO.
+Un tesoro para conservar. El tener uno de los días más importantes de sus vidas plasmados en papel y en video es algo inigualable y que al paso de los años seguirán siendo un recuerdo muy especial.
+Captar cada momento de ese día lo debe de hacer un experto en la materia, así que un excelente fotógrafo hace la diferencia. Es importante que sea organizado, cumplido y profesional. Te recomendamos que sea alguien con buenas referencias y que te muestre su trabajo.
+"><img src="IMGs/wed-12-fotovideo-CH.jpg" name="wed12" width="141" height="141" border="0" id="wed12"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-13-vestido.jpg" data-fancybox-title="VESTIDO DE NOVIA.
+El cómo te verás en tu boda es uno de los detalles más importantes, debes lucir bella y ser el centro de atención de ese momento tan especial. ¡Es tu día, así que no hay límites! Sólo concéntrate en encontrar un vestido espectacular y que luzca bien de acuerdo a tu personalidad y estilo.
+"><img src="IMGs/wed-13-vestido-CH.jpg" name="wed13" width="141" height="140" border="0" id="wed13"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-14-damas.jpg" data-fancybox-title="VESTIDO DE DAMAS.
+Hoy  en día existen diferentes formas de que luzcan tus damas. Elegir el color es lo más sencillo, pero debes de tratar que el modelo sea fácil de lucir en todo tipo de siluetas. Busca que estén contentas con tu decisión, así ellas también se sentirán bellas y estarán felices de ser tus damas. 
+Hay que ser congruentes con el estilo de fiesta, si es de día, en lugar abierto y caluroso elige vestidos ligeros y cortos. Si es un evento de noche y de gala, el largo queda perfecto. Recuerda, tus damas deben de sentirse a gusto al igual que tú.
+"><img src="IMGs/wed-14-damas-CH.jpg" name="wed14" width="141" height="141" border="0" id="wed14"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-18-anillos.jpg" data-fancybox-title="ANILLOS.
+Para el anillo de compromiso normalmente la elección es del novio, es una sorpresa para ella. Busca un anillo que represente su amor.
+Importante, debes saber la medida del dedo de tu novia para evitar errores y tener que regresarlo después de haberlo dado.
+Para los anillos de matrimonio la elección es un gusto de ambos. Hay infinita variedad de modelos, dense un tiempo para elegir los correctos. Recuerda que es una joya que representa la unión en pareja.
+"><img src="IMGs/wed-18-anillos-CH.jpg" name="wed18" width="141" height="140" border="0" id="wed18"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-15-accesorios.jpg" data-fancybox-title="ACCESORIOS.
+Un complemento básico es incluir a tu vestido accesorios adecuados. Normalmente se utilizan adornos discretos y de buen gusto, sin caer en lo exagerado y cargado. 
+Los zapatos son otro elemento que resaltan el vestido de novia, te recomendamos buscar zapatos cómodos. Avanzada la fiesta puedes sustituirlos por tenis de novia.
+"><img src="IMGs/wed-15-accesorios-CH.jpg" name="wed15" width="141" height="140" border="0" id="wed15"></td>
+    </tr>
+    <tr>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-16-peinado.jpg" data-fancybox-title="PEINADOS Y MAQUILLAJE.
+El peinado y maquillaje son parte de tu presentación, es importante buscar a un especialista en la materia que entienda lo que te gusta y sepa armonizar tu cabello y rostro para verte espectacular. Recuerda, antes del gran evento debes hacerte una prueba  para que sepas cómo lucirás y poder hacer modificaciones si es necesario. 
+"><img src="IMGs/wed-16-peinado-CH.jpg" name="wed16" width="141" height="141" border="0" id="wed16"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-19-novio.jpg" data-fancybox-title="PARA EL NOVIO.
+No podemos ni queremos dejar atrás al novio. Es un momento igual de importante para él.
+Tu imagen es primordial, ¿Cómo quiero verme en mi boda? Tenemos que buscar lo apuesto que te verás ese día. Una vestimenta adecuada es lo principal, y llevar un adorno en la solapa que combine con la novia, es un detalle muy especial.  
+Las mancuernillas son otro detalle sofisticado, elige algo discreto pero que te haga lucir elegante. Eres el novio, debes lucir un atuendo varonil que te hará ver con armonía y coordinado.
+"><img src="IMGs/wed-19-novio-CH.jpg" name="wed19" width="141" height="141" border="0" id="wed19"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-17-spa.jpg" data-fancybox-title="SPA.
+Te recomendamos buscar un momento para que te relajes, puede ser una semana antes de su boda, o unos días antes. El objetivo es que te relajes y dediques un tiempo para tu tranquilidad y buscar espiritualidad. Esto ayuda mucho para los novios que están en constante estrés. Créanos, es una maravilla.
+"><img src="IMGs/wed-17-spa-CH.jpg" name="wed17" width="141" height="141" border="0" id="wed17"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-20-limo.jpg" data-fancybox-title="LIMUSINAS.
+Ir en la comodidad de una limusina es toda una experiencia; espacio suficiente, elegancia, confort y servicio. ¡Se merecen esto y más!
+"><img src="IMGs/wed-20-limusinas-CH.jpg" name="wed20" width="141" height="140" border="0" id="wed20"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-21-fuegos.jpg" data-fancybox-title="FUEGOS ARTIFICIALES.
+Para bodas en lugares abiertos los fuegos artificiales son una fiesta y un espectáculo increíbles, es la alegría de festejar este acontecimiento. Un plus que dará un toque especial a su boda.
+Ustedes y sus invitados lo disfrutarán. 
+"><img src="IMGs/wed-21-fuegos-CH.jpg" name="wed21" width="141" height="141" border="0" id="wed21"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-22-cantoya.jpg" data-fancybox-title="GLOBOS DE CANTOYA.
+Otro espectáculo excepcional son los globos de cantoya. Se encienden globos al aire libre y todos los invitados los lanzan para tapizar el cielo de luz y brillo. Es una belleza disfrutar ese instante.
+Consejo. Si hay niños como invitados deben de estar vigilados por un adulto.
+"><img src="IMGs/wed-22-globos-CH.jpg" name="wed22" width="141" height="140" border="0" id="wed22"></td>
+    </tr>
+    <tr>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-23-flotantes.jpg" data-fancybox-title="PANTALLAS FLOTANTES.
+Un adorno con gran elegancia son las pantallas flotantes con iluminación en su interior. Se colocan sobre el agua y dan un ambiente muy acogedor y diferente. 
+Consejo. Si buscas incluir esta decoración, el evento debe ser por la noche para que luzcan radiantes.
+"><img src="IMGs/wed-23-flotantes-CH.jpg" name="wed23" width="141" height="141" border="0" id="wed23"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-24-dulces.jpg" data-fancybox-title="BARRA DE DULCES.
+Es muy común hoy en día montar una barra de dulces variados, es un detalle más que puedes incluir en tu boda y tus invitados quedarán encantados.
+"><img src="IMGs/wed-24-dulces-CH.jpg" name="wed24" width="141" height="140" border="0" id="wed24"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-25-reposteria.jpg" data-fancybox-title="REPOSTERÍA. 
+Aún no está de lado el pastel de bodas, sin embargo algo que puede hacer la diferencia es incluir unos deliciosos cupcakes. El pastel de los novios pueden hacerlo de tamaño pequeño para ustedes dos y los cupcakes para los invitados, quedarán fascinados.
+Consejo. Así como el menú principal, debes hacer una prueba de postres para probar la calidad y sabor.
+"><img src="IMGs/wed-25-reposteria-CH.jpg" name="wed25" width="141" height="140" border="0" id="wed25"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-26-souvenirs.jpg" data-fancybox-title="SOUVENIRS.
+Un detalle de agradecimiento a tus invitados es darles un regalo original que se puedan quedar de recuerdo y que lo conserven por mucho tiempo. Por ejemplo las pantuflas, son un hit para las mujeres que después de tanto tiempo de usar tacones necesitan seguir la fiesta, tus invitadas te lo agradecerán y el baile continuará. Te sugerimos elegir algo creativo y original."><img src="IMGs/wed-26-souvenirs-CH.jpg" name="wed26" width="141" height="140" border="0" id="wed26"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-27-despedida.jpg" data-fancybox-title="DESPEDIDA DE SOLTERA (O).
+Disfrutar este momento con tus amigas (os) y familia es cuando te das cuenta que serán las últimas veces que salgas como soltera (o). Busca un lugar donde te guste compartir con las personas que más quieres tu felicidad. Créanos es una gran experiencia."><img src="IMGs/wed-27-despedidas-CH.jpg" name="wed27" width="141" height="141" border="0" id="wed27"></td>
+      <td><a class="trans fancybox" data-fancybox-group="fotos" href="IMGs/wed-28-luna.jpg" data-fancybox-title="LUNA DE MIEL.
+¡Al fin solos! Después de tanto organizar, después de tanto estrés, y después de una boda de 10, llega el momento de relajarse y disfrutar en pareja. ¡Felicidades a los nuevos esposos!
+"><img src="IMGs/wed-28-lunademiel-CH.jpg" name="wed28" width="141" height="140" border="0" id="wed28"></td>
+    </tr>
+    </table>
+
+
+</div>
+
+<div class="barraDatosWED" id="disclaimer">
+<div class="ple" id="produccion">Producción & Logística de Eventos
+© 2013 Todos los Derechos Reservados. México, D.F.</div>
+<div class="datos" id="datos">
+Teléfono | (55) 63.90.01.70<br>
+Email | <a class="mail" href="mailto:contacto@pl-e.mx">contacto@pl-e.mx</a><br>
+<a class="mail" href="http://www.pl-e.mx">www.pl-e.mx</a>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
